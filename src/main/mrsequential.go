@@ -58,7 +58,7 @@ func main() {
 
 	sort.Sort(ByKey(intermediate))
 
-	oname := "mr-out-0"
+	oname := "mr-res"
 	ofile, _ := os.Create(oname)
 
 	//
